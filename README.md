@@ -26,8 +26,8 @@ A imagem ilustra o fluxo do usuário dentro de nossa plataforma. As tarefas plan
   - [ ] Configuração da Conta
 
 - [ ] APP para Clientes
-  - [ ] Cadastro
-  - [ ] Autenticação
+  - [X] Cadastro
+  - [X] Autenticação
   - [ ] Recuperação de senha
   - [ ] Solicitação de pedidos
   - [ ] Gerenciamento de Pedidos
