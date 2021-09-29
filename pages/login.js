@@ -42,7 +42,7 @@ export default function Login() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
-            <main className="flex flex-col items-center justify-center w-full flex-1 px-20 space-y-6 text-center">
+            <main className="flex px-96 flex-col items-center justify-center w-full flex-1 space-y-6 text-center">
                 <LoginForm data={{ value: value, function: setValue }}/>
                 {error && <h2 className="text-red-800">A senha ou e-mail incorreto</h2>}
                 <button onClick={onClickHandle} className="bg-purple-400 w-full rounded-md py-2">Entrar</button>
@@ -55,7 +55,7 @@ export default function Login() {
 function LoginForm({ data }) {
 
     return (
-        <div className="space-y-4">
+        <div className="w-full space-y-4">
             <InputLabels id="email" data={data} type="email">
                 E-mail
             </InputLabels>

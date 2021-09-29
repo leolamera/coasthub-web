@@ -13,7 +13,7 @@ export default function ButtonSelect({ selected }) {
     }
   
     return (
-      <div className="flex flex-row  text-xl bg-gray-200 px-3 py-2 rounded-xl">
+      <div className="flex flex-row  text-xl bg-gray-200 px-3 py-2 md:mx-40 justify-center rounded-xl">
         <button
           className={internalValue === "client" ? "bg-purple-400 px-5 py-4 text-center rounded-xl w-30" : "px-5 py-4 text-center rounded-xl w-30"}
           onClick={setValueHandle}
